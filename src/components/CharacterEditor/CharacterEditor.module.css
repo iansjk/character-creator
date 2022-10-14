@@ -3,11 +3,23 @@
   padding-bottom: 64px;
 }
 
+.characterEditor::before {
+  content: "";
+  position: fixed;
+  top: 60%;
+  height: 40%;
+  left: 0;
+  right: 0;
+  background-color: hsl(195deg, 20%, 86%);
+}
+
 .maxWidthWrapper {
+  isolation: isolate;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -27,4 +39,5 @@
 }
 
 .controlColumn {
+  width: 50%;
 }
